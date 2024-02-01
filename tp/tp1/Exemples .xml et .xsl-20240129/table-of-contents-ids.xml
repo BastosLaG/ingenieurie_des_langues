@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="table-of-contents-ids.xsl" version="1.0" type="text/xsl"?>
+<document>
+  <chapter>
+    <title toc_id="intro">Introduction</title>
+    <para>In the old times, when it was still of some use to wish for the thing one wanted, there lived a King whose daughters were all handsome, but the youngest was so beautiful that the sun himself, who has seen so much, wondered each time he shone over her because of her beauty. Near the royal castle there was a great dark wood, and in the wood under an old linden-tree was a well; and when the day was hot, the King's daughter used to go forth into the wood and sit by the brink of the cool well, and if the time seemed long, she would take out a golden ball, and throw it up and catch it again, and this was her favourite pastime</para>
+  </chapter>
+  
+  <chapter>
+    <title toc_id="old">An old story</title>
+    <para>Now it happened one day that the golden ball, instead of falling back into the maiden's little hand which had sent it aloft, dropped to the ground near the edge of the well and rolled in. The king's daughter followed it with her eyes as it sank, but the well was deep, so deep that the bottom could not be seen. Then she began to weep, and she wept and wept as if she could never be comforted. And in the midst of her weeping she heard a voice saying to her</para>
+  </chapter>
+  
+  <chapter>
+    <title toc_id="new">An new story</title>
+    <para>New stories are different</para>
+    <section>
+      <title>Introduction</title>
+      <para>Upon a time ....</para>
+      <title>Introduction</title>
+      <para>... there was a young prince</para>
+    </section>
+  </chapter>
+  
+  
+  <chapter>
+    <title toc_id="quatrieme">Une quatrième histoire</title>
+    <para>New stories are different</para>
+    <section>
+      <title>Introduction</title>
+      <para>Upon a time ....</para>
+      <title>Introduction</title>
+      <para>... there was a young prince</para>
+    </section>
+  </chapter>
+  
+  <chapter>
+    <title>Credits</title>
+    <para>Excerpts from http://www.gutenberg.org/files/19068/19068-h/19068-h.htm#illus-043</para>
+  </chapter>
+</document>

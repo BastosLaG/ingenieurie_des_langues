@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="films.xsl" type="text/xsl" ?>
+
+<films>
+    <film>
+        <nom>Le Seigneur des anneaux : La Communauté de l'anneau</nom>
+        <realisateur>Peter Jackson</realisateur>
+        <acteur>Elijah Wood</acteur>
+        <acteur>Viggo Mortensen</acteur>
+        <acteur>Ian Mckellen</acteur>
+        <acteur>Orlando Bloom</acteur>
+        <acteur>Sean Astin</acteur>
+        <date>19 décembre 2001</date>
+        <note>8/10</note>
+        <synopsis>
+            Un jeune et timide hobbit, Frodon Sacquet, hérite d'un anneau magique. Sous ses apparences de simple bijou, il s'agit en réalité d'un instrument de pouvoir absolu qui permettrait à Sauron, le Seigneur des ténèbres, de régner sur la Terre du Milieu et de réduire en esclavage ses peuples. Frodon doit parvenir, avec l'aide de la Communauté de l'Anneau, composée de huit compagnons venus de différents royaumes, jusqu'à la Montagne du Destin pour le détruire.
+        </synopsis>
+    </film>
+    <film>
+        <nom>Le Seigneur des anneaux : Les Deux Tours</nom>
+        <realisateur>Peter Jackson</realisateur>
+        <acteur>Elijah Wood</acteur>
+        <acteur>Viggo Mortensen</acteur>
+        <acteur>Ian Mckellen</acteur>
+        <acteur>Orlando Bloom</acteur>
+        <acteur>Sean Astin</acteur>
+        <date>10 décembre 2002</date>
+        <note>8.5/10</note>
+        <synopsis>
+            Après la mort de Boromir et la disparition de Gandalf, la Communauté s'est scindée en trois. Perdus dans les collines d'`Emyn Muil', Frodon et Sam découvrent qu'ils sont suivis par Gollum, une créature versatile corrompue par l'anneau magique. Gollum promet de conduire les `Hobbits' jusqu'à la `Porte Noire' du `Mordor'. A travers la `Terre du Milieu', Aragorn, Legolas et Gimli font route vers le `Rohan', le royaume assiégé de Theoden.
+        </synopsis>
+    </film>
+    <film>
+        <nom>Le Seigneur des anneaux : Le Retour du roi</nom>
+        <realisateur>Peter Jackson</realisateur>
+        <acteur>Elijah Wood</acteur>
+        <acteur>Viggo Mortensen</acteur>
+        <acteur>Ian Mckellen</acteur>
+        <acteur>Orlando Bloom</acteur>
+        <acteur>Sean Astin</acteur>
+        <date>17 décembre 2003</date>
+        <note>8.1/10</note>
+        <synopsis>
+            Les armées de Sauron ont attaqué Minas Tirith, la capitale de Gondor. Jamais ce royaume autrefois puissant n'a eu autant besoin de son roi. Mais Aragorn trouvera-t-il en lui la volonté d'accomplir sa destinée ?
+
+            Tandis que Gandalf s'efforce de soutenir les forces brisées de Gondor, Théoden exhorte les guerriers de Rohan à se joindre au combat. Mais malgré leur courage et leur loyauté, les forces des Hommes ne sont pas de taille à lutter contre les innombrables légions d'ennemis qui s'abattent sur le royaume...
+
+            Chaque victoire se paye d'immenses sacrifices. Malgré ses pertes, la Communauté se jette dans la bataille pour la vie, ses membres faisant tout pour détourner l'attention de Sauron afin de donner à Frodon une chance d'accomplir sa quête.
+
+            Voyageant à travers les terres ennemies, ce dernier doit se reposer sur Sam et Gollum, tandis que l'Anneau continue de le tenter...
+        </synopsis>
+    </film>
+</films>

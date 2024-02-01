@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml-stylesheet href="molecules.xsl" type="text/xsl" ?> <molecules>        
+    <molecule>                
+        <nom>Ibuprofene                        
+            <symptome>Apparition de fievre</symptome>
+            <symptome>Inflammation</symptome>                    
+            <symptome>Maux de tete</symptome>                        
+            <symptome>Maux de dents</symptome>                        
+            <symptome>Maux de dos</symptome>                        
+            <symptome>Arthrite</symptome>                        
+            <symptome>Douleurs menstruelles</symptome>
+            <symptome>Blessures mineures</symptome>
+        </nom>                
+        <dosejournaliere prises="3" dose="400"/>        
+    </molecule>        
+    <molecule>                
+        <nom>Paracetamol                        
+            <symptome>Maux de tete</symptome>                        
+            <symptome>Douleurs musculaires</symptome>                        
+            <symptome>Arthrite</symptome>                        
+            <symptome>Maux de dos</symptome>                        
+            <symptome>Maux de dents</symptome>                        
+            <symptome>Rhumes</symptome>                        
+            <symptome>Fievres</symptome>                  
+        </nom>                
+        <dosejournaliere prises="4" dose="1000"/>                
+        <attention>                
+            <allergie>acetaminophen</allergie>                
+            <antecedent>maladie du foie</antecedent>                
+            <antecedent>alcoolisme</antecedent>                
+        </attention>        
+    </molecule> 
+</molecules>
