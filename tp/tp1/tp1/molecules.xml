@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?> 
-<?xml-stylesheet href="molecules.xsl" type="text/xsl" ?> <molecules>        
-    <molecule>                
+<?xml-stylesheet href="molecules.xsl" type="text/xsl" ?> 
+<molecules>        
+    <molecule lang="fr">                
         <nom>Ibuprofene                        
             <symptome>Apparition de fievre</symptome>
             <symptome>Inflammation</symptome>                    
@@ -13,7 +14,7 @@
         </nom>                
         <dosejournaliere prises="3" dose="400"/>        
     </molecule>        
-    <molecule>                
+    <molecule langue="fr">                
         <nom>Paracetamol                        
             <symptome>Maux de tete</symptome>                        
             <symptome>Douleurs musculaires</symptome>                        
