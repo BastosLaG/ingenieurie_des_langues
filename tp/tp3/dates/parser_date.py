@@ -17,7 +17,7 @@ def nettoyer_texte(texte):
 def examine_phrase(phrase):
     current_phrase = phrase.split(' ')
     for i in range(len(current_phrase)):
-        current_phrase.append(mot)
+        current_phrase.append()
         if current_phrase[i] in liste_mot_deb:
             print(current_phrase[i])
         elif current_phrase[i] in liste_demain:
@@ -29,11 +29,11 @@ for filename in glob.glob("src/*.txt"):
     print(filename + " :")
     with open(filename, 'r') as file:
         text = file.read()
-        text = text.lower()
-        for phrase in re.split(r'[.!?_,]+', text):            
-            for mot in re.split(r'[,\s.!?«»;:]+', phrase):
-                if mot in liste_mot_deb_long:
-                    examine_phrase(phrase)
+        # text = text.lower()
+        # for phrase in re.split(r'[.!?_,]+', text):            
+        #     for mot in re.split(r'[,\s.!?«»;:]+', phrase):
+        #         if mot in liste_mot_deb_long:
+        #             examine_phrase(phrase)
 
         text = nettoyer_texte(text)
 
@@ -41,7 +41,7 @@ for filename in glob.glob("src/*.txt"):
         # print(re.findall(r'[A-Z]\w+\s\d+', text)) 
         
         # Mots parasite
-        # for date_tuple in search_dates(text, languages=['fr']):
-        #     date_str, date_obj = date_tuple
-        #     if date_str.lower() not in ["je", "sa", "me", "ma"]:
-        #         print(str(date_str) + '\t||\t' + str(date_obj))
+        for date_tuple in search_dates(text, languages=['fr']):
+            date_str, date_obj = date_tuple
+            if date_str.lower() not in ["je", "sa", "me", "ma"]:
+                print(str(date_str) + '\t||\t' + str(date_obj))
