@@ -1,3 +1,3 @@
 <p>On est actuellement <article_def>le</article_def> dimanche 3 mars à 23h04.</p>
 <p>J'ai pris rendez-vous pour <article_def>le</article_def> 14 à 14h afin de faire refaire ma carte d'identité, pour y aller après <article_def>les</article_def> cours de jeudi.</p>
-<p>Je <pronom>la</pronom> pronom test...</p>
+<p>Je <pronom>la</pronom> pronom test... je <pronom>l'</pronom> aime.</p>

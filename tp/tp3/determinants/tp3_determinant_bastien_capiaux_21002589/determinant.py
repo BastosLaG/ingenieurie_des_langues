@@ -27,6 +27,7 @@ def determiner_fonction(mot_precedent):
 def annoter_fichiers(filename):
     with open(filename, 'r') as file:
         fichier = file.read()
+    fichier = fichier.replace("l'", "l' ")
     phrases = segmenter_phrases(fichier)
           
     output_filename = os.path.join("output", os.path.basename(filename).replace(".txt", "_annotated.txt"))
