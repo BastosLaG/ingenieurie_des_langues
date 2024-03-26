@@ -2,6 +2,7 @@
 #include <locale.h>
 #include "corpus.h"
 #include <curl/curl.h>
+
 int recuperer_contenu_site_corpus(char *recherche, char *nom_fichier_fin_sites, int nbr_source)
 {
    int nbr,nbr_site=1, i=0,nombre_caract_ligne=128;
