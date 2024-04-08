@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 debug = False
+# potential_value = 10
 
 def get_element(url, element):
     """
@@ -96,19 +97,19 @@ def get_all(pages_recheche, class_rechercher):
             if debug: print("Erreur lors de la récupération de la page:", response.status_code, "pour l'URL:", url)
     return all_avis_links
 
-def get_potential_avis_page(pages_recheche):
-    all_avis_links = []
-    for url in pages_recheche:
-        all_avis_links.append(url)
-        for i in range(10):
-            temp_url = f'{url}?p={i}'
-            all_avis_links.append(temp_url)
-    return all_avis_links
+# def get_potential_avis_page(pages_recheche):
+#     all_avis_links = []
+#     for url in pages_recheche:
+#         all_avis_links.append(url)
+#         for i in range(2, potential_value+1, 1):
+#             temp_url = f'{url}?p={i}'
+#             all_avis_links.append(temp_url)
+#     return all_avis_links
 
 
 def test_avis_pages(potential_avis_pages):
-    tested_pages = set()  # Stocker les pages déjà testées
-    valid_pages = []  # Stocker les pages valides
+    tested_pages = set()
+    valid_pages = []
 
     for page in potential_avis_pages:
         if page not in tested_pages:
@@ -122,25 +123,20 @@ def test_avis_pages(potential_avis_pages):
 
 
 def main():
-    print("Recherche pages de jeux...")
+    if debug: print("Recherche pages de jeux...")
     valide_avis_urls = get_url_avis_valide()
-    print("OK")
+    if debug: print("OK")
     for elem in valide_avis_urls:
-        print(elem)
+        if debug: print(elem)
 
-    print("Recherche toutes pages avis pour les jeux...")
+    if debug:print("Recherche toutes pages avis pour les jeux...")
     avis_urls = get_all(valide_avis_urls,'gameHeaderBanner__platformLink')
-    print("OK")
+    if debug:print("OK")
     for elem in avis_urls:
-        print(elem)
-
-    print("Recherche all avis url pour les jeux...")
-    potentiel_avis_urls = get_potential_avis_page(avis_urls)
-    print("OK")
-    for elem in potentiel_avis_urls:
         print(elem)
 
 
 if __name__ == "__main__":
     # debug = True
+    # potential_value = 10
     main()
