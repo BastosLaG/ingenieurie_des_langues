@@ -31,7 +31,7 @@ def del_useless_info(filename: str) -> None:
     if debug: print(f"print : 4")
 
     df['Test'] = df['Note'].apply(lambda x: '-' if x <= 5 else '+')
-
+    df = df[['Test', 'Avis' ]]
     df.to_csv('database/new_test.csv', index=False)
     return
 
