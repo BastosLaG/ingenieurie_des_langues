@@ -32,7 +32,7 @@ python3 src/scraper_avis.py
 ```
 3. Annote nos informations scrapés :
 ```bash
-python3 src/annotation.py
+python3 src/prediction.py
 ```
 
 ### Exemple d'utilisation
