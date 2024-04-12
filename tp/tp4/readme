@@ -19,8 +19,17 @@ pip install requests beautifulsoup4
 
 Le script propose plusieurs options que vous pouvez spécifier lors de l'exécution :
 
+1. scrap les urls disponible sur le site de tout les jeux populaires du moment :
 ```bash
-python3 src/scraper_url.py > database/url.txt && python3 src/scraper_avis.py
+python3 src/scraper_url.py > database/url.txt 
+```
+2. scrap les infos disponibles sur les sites de notre scraper d'URL :
+```bash
+python3 src/scraper_avis.py
+```
+3. Annote nos informations scrapés :
+```bash
+python3 src/annotation.py
 ```
 
 ### Exemple d'utilisation
