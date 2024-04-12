@@ -47,8 +47,9 @@ def get_avis(urls, elements):
                     titre, note, pseudo, avis = resultats
                     note = note[2:]
                     pseudo = [p.split('\n')[0] for p in pseudo]
+                    pseudo = pseudo[2:]
                     if debug: print(pseudo)
-                    avis = avis[1:-1]
+                    avis = avis[2:]
 
                     # Vérifie si les pseudonymes de la page actuelle sont égaux à ceux de la page précédente
                     current_pseudos = set(pseudo)
