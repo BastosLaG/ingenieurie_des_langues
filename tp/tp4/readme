@@ -8,6 +8,9 @@ Ce script est un scraper conçu pour extraire des données à partir du site Jeu
 - Les bibliothèques Python suivantes :
   - requests
   - BeautifulSoup4
+  - spacy
+  - python3 -m spacy download fr_core_news_sm
+
 
 ### Utilisation
 
@@ -19,11 +22,11 @@ pip install requests beautifulsoup4
 
 Le script propose plusieurs options que vous pouvez spécifier lors de l'exécution :
 
-1. scrap les urls disponible sur le site de tout les jeux populaires du moment :
+1. Scrap les urls disponible sur le site de tout les jeux populaires du moment :
 ```bash
 python3 src/scraper_url.py > database/url.txt 
 ```
-2. scrap les infos disponibles sur les sites de notre scraper d'URL :
+2. Attention cela peut prendre longtemps !!! Scrap les infos disponibles sur les sites de notre scraper d'URL :
 ```bash
 python3 src/scraper_avis.py
 ```
