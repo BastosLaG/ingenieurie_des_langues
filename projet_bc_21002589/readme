@@ -1,0 +1,44 @@
+**Readme - JVC Scraper**
+
+Ce script est un scraper conçu pour extraire des données à partir du site Jeuxvideo.com (JVC). Il peut être utilisé pour collecter diverses informations telles que les titres des articles, les dates de publication, les auteurs, les commentaires, etc., à des fins d'analyse ou de traitement ultérieur.
+
+### Prérequis
+
+- Python 3.x
+- Les bibliothèques Python suivantes :
+  - requests
+  - BeautifulSoup4
+  - spacy
+  - python3 -m spacy download fr_core_news_sm
+
+
+### Utilisation
+
+```bash
+pip install requests beautifulsoup4
+```
+
+### Options disponibles
+
+Le script propose plusieurs options que vous pouvez spécifier lors de l'exécution :
+
+1. Scrap les urls disponible sur le site de tout les jeux populaires du moment :
+```bash
+python3 src/scraper_url.py > database/url.txt 
+```
+2. Attention cela peut prendre longtemps !!! Scrap les infos disponibles sur les sites de notre scraper d'URL :
+```bash
+python3 src/scraper_avis.py
+```
+3. Annote nos informations scrapés :
+```bash
+python3 src/prediction.py
+```
+
+### Avertissement
+
+Ce script est fourni à titre informatif et éducatif uniquement. L'utilisation abusive de ce script peut violer les conditions d'utilisation de Jeuxvideo.com ou causer une charge inutile sur leurs serveurs. Utilisez-le avec responsabilité et respectez les politiques de JVC.
+
+### Auteurs
+
+Ce script a été écrit par [Bastien Capiaux](https://github.com/BastosLaG).
