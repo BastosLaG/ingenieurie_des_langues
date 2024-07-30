@@ -11,13 +11,6 @@ Ce script est un scraper conçu pour extraire des données à partir du site Jeu
   - spacy
   - python3 -m spacy download fr_core_news_sm
 
-
-### Utilisation
-
-```bash
-pip install requests beautifulsoup4
-```
-
 ### Options disponibles
 
 Le script propose plusieurs options que vous pouvez spécifier lors de l'exécution :
