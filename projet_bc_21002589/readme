@@ -1,6 +1,6 @@
 **Readme - JVC Scraper**
 
-Ce script est un scraper conçu pour extraire des données à partir du site Jeuxvideo.com (JVC). Il peut être utilisé pour collecter diverses informations telles que les titres des articles, les dates de publication, les auteurs, les commentaires, etc., à des fins d'analyse ou de traitement ultérieur.
+Ce script est un scraper conçu pour extraire des données à partir du site Jeuxvideo.com (JVC). Il peut être utilisé pour collecter diverses informations telles que les titres des articles, les dates de publication, les auteurs, les commentaires, etc., à des fins d'analyse ou de traitement. Ici le but est de pouvoir prédir si un commentaire utilisateur est positif ou négatif.
 
 ### Prérequis
 
@@ -11,20 +11,19 @@ Ce script est un scraper conçu pour extraire des données à partir du site Jeu
   - spacy
   - python3 -m spacy download fr_core_news_sm
 
+### Options disponibles
 
-### Utilisation
+Les scripts se décompose en plusieurs partie :
 
-Le script propose plusieurs options que vous pouvez spécifier lors de l'exécution :
-
-1. Scrap les urls disponible sur le site de tout les jeux populaires du moment :
+1. Scrap les urls disponible sur le site JVC de tout les jeux populaires du moment :
 ```bash
 python3 src/scraper_url.py > database/url.txt 
 ```
-2. Attention cela peut prendre longtemps !!! Scrap les infos disponibles sur les sites de notre scraper d'URL :
+2. Scrap les infos disponibles sur les sites de notre scraper d'URL (Attention cela peut prendre longtemps !!!) :
 ```bash
 python3 src/scraper_avis.py
 ```
-3. Annote nos informations scrapés :
+3. Nous permet d'écrire des phrases à notre IA afin de savoir si notre commentaire est positif ou négatif :
 ```bash
 python3 src/prediction.py
 ```
